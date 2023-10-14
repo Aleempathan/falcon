@@ -17,14 +17,7 @@ const Header = () => {
                 : ""} nav-link nav-link-story nav-link-margin `}
             to="/"
           >
-            Story
-          </NavLink>
-          <NavLink
-            className={`${(isActive) =>
-              isActive ? "nav-link-active" : ""} nav-link nav-play`}
-            to="/play"
-          >
-            Play
+            Find Falcone
           </NavLink>
         </ul>
       </div>

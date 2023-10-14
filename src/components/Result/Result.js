@@ -86,7 +86,7 @@ const Result = () => {
           <div className="play-button">
             <Link
               to={{
-                pathname: "/play",
+                pathname: "/",
               }}
             >
               <button

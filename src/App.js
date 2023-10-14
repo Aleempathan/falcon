@@ -12,7 +12,7 @@ function App() {
       <Router>
         <Header />
         <Routes>
-          {/* <Route path="/" element={<Story />} /> */}
+    
           <Route path="/" element={<Play />} />
           <Route path="/result" element={<Result />} />
           <Route path="*" element={<Story />} />
